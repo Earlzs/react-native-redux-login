@@ -31,8 +31,8 @@ class Home extends React.Component {
             <View style={{ flex: 1,justifyContent:"center",alignItems:'center'}}>
                 <Text style={{fontSize:33}}> 登录进主页了</Text>
                 <Image style={{ width: 90, height: 90 ,margin:20}} source={{ uri: `${user.avatar}` }}></Image>
-                <Text style={{fontSize:16,color:'#333'}}> name:{user.name}</Text>
-                <Text style={{fontSize:16,color:'#333'}}> age:{user.age}</Text>
+                <Text style={{fontSize:16,color:'#333'}}> name:{user.username}</Text>
+                <Text style={{fontSize:16,color:'#333'}}> age:{user.password}</Text>
 
             </View>
         )

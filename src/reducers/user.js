@@ -2,7 +2,7 @@ import * as TYPE from '../actions/types'
 
 //初始化user状态
 const initialState = {
-    status: 'null',
+    status: 'null',    
     user: {},
     logIn: false
 }

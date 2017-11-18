@@ -54,7 +54,11 @@ class Login extends React.Component {
     //登录
     login = () => {
         const { dispatch } = this.props;
-        dispatch(logIn())
+        const opt={
+            username:this.state.username,
+            password:this.state.password
+        }
+        dispatch(logIn(opt))
     }
 
     render() {
